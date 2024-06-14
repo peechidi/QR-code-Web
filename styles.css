@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Outfitregular;
+    src: url(./Outfit/static/Outfit-Regular.ttf);
+  }
+  @font-face {
+    font-family: Outfitbold;
+    src: url(./Outfit/static/Outfit-Bold.ttf);
+  }  
+
+body {
+    background-color: #D5E1EF;
+    width: 100%;
+    font-size: 15px;
+}
+#jumbotron {
+    margin: 0 auto;
+    Width: 320px;
+    height: 497px;
+    background-color: white;
+    border-radius: 5%;
+}
+img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  border-radius: 10%;
+}
+#text-container {
+    margin: 5px;
+    width: 288px;
+    height: 129px;
+}
+h1 {
+    text-align: center;
+    color: #1f314f;
+    font-size: 1.5rem;
+    font-family: Outfitbold;
+
+}
+p {
+    text-align: center;
+    color: #7d889e;
+    font-family: Outfitregular;
+    font-size: 1rem;
+
+}
